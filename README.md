@@ -1,6 +1,8 @@
 # pk5001zScraper
 Get the data from your zyxel pk5001z modem and collect it!
 
+(See the rpi branch for a pi compatible modification of master)
+
 ## Usage (use long flags)
 ```bash
 Usage: pk5001z.js [options] [command]
