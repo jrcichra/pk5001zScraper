@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-core');
 const args = require('args');
 const shell = require('shelljs');
 require('console-stamp')(console, { pattern: 'dd/mm/yyyy HH:MM:ss.l' });
