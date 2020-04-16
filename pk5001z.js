@@ -22,7 +22,7 @@ const timeout = 60 * 1000;
 
 (async () => {
 	//Load the browser 
-	const browser = await puppeteer.launch({ headless: flags.headless, args: ['--start-maximized'], devtools: false });
+	const browser = await puppeteer.launch({ headless: flags.headless, args: ['--start-maximized'], devtools: false, executablePath: 'chromium-browser' });
 	const page = await browser.newPage();
 	await page.setViewport({ width: 1920, height: 1080 });
 	await page.setDefaultNavigationTimeout(timeout);
