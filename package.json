@@ -1,14 +1,20 @@
 {
-  "name": "modemscraper",
+  "name": "pk5001zscraper",
   "version": "1.0.0",
-  "main": "db.js",
+  "main": "pk5001z.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Justin Cichra <1342149+jrcichra@users.noreply.github.com>",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "mariadb": "^2.0.1-beta"
-  }
+    "args": "^5.0.1",
+    "console-stamp": "^0.2.9",
+    "knex": "^0.20.15",
+    "mysql2": "^2.1.0",
+    "puppeteer": "^2.1.1",
+    "shelljs": "^0.8.3"
+  },
+  "repository": "https://github.com/jrcichra/pk5001zScraper.git"
 }
