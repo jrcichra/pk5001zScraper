@@ -11,10 +11,10 @@
   "dependencies": {
     "args": "^5.0.1",
     "console-stamp": "^0.2.9",
-    "knex": "^0.20.15",
-    "mysql2": "^2.1.0",
-    "puppeteer-core": "^2.1.1",
-    "shelljs": "^0.8.3"
+    "knex": "^0.21.6",
+    "mysql2": "^2.2.5",
+    "puppeteer-core": "^5.3.1",
+    "shelljs": "^0.8.4"
   },
   "repository": "https://github.com/jrcichra/pk5001zScraper.git"
 }

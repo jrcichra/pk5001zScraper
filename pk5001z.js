@@ -18,7 +18,7 @@ const flags = args.parse(process.argv, {
 		boolean: ['headless']
 	}
 });
-const timeout = 60 * 1000;
+const timeout = 60 * 1000 * 5;
 
 (async () => {
 	//Load the browser 
