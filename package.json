@@ -14,7 +14,7 @@
     "knex": "^0.20.15",
     "mysql2": "^2.1.0",
     "puppeteer": "^2.1.1",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   },
   "repository": "https://github.com/jrcichra/pk5001zScraper.git"
 }
